@@ -6,8 +6,8 @@ def change
     t.integer :price
     t.integer :size 
     t.string :image_url 
-    t.
-  
+    t.datetime :crated_at
+    t.datetime :updated_at
 end 
   
   
