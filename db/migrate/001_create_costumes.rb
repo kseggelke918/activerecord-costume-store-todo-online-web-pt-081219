@@ -1,14 +1,14 @@
 class CreateCostumes < ActiveRecord::Migration
  
-def change 
-  create_table costumes do |t|
-    t.string :name 
-    t.integer :price
-    t.integer :size 
-    t.string :image_url 
-    t.datetime :crated_at
-    t.datetime :updated_at
-end 
+  def change 
+    create_table costumes do |t|
+      t.string :name 
+      t.integer :price
+      t.integer :size 
+      t.string :image_url 
+      t.datetime :crated_at
+      t.datetime :updated_at
+  end 
   
   
 end 
